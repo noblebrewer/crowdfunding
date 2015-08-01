@@ -1,0 +1,30 @@
+<head>
+  <div class="title">
+      <title>Sign Up</title>
+  </div>
+  <% include ./partials/head %>
+</head>
+
+<% include ./partials/header %>
+
+<section>
+  <div class="row">
+    <div class="col-md-5 col-md-offset-1">
+      <h3 class="tan-header"> Sign up and submit a beer </h3>
+      <div class="body-copy">
+        <p>Get impossible-to-find craft beer made from homebrew recipes delivered to your door on a quarterly release schedule.</p>
+      </div>
+      <hr>
+      <div class="body-copy">
+        <form id="signup-brewer-form" method="post">
+          <input type="text" name="firstname" value="First Name"></input>
+          <input type="text" name="lastname" value="Last Name"></input>
+          <input type="text" name="email" value="Email address"></input>
+          <input type="file" name="photo" accept="image/*"></input>
+        </form>
+      </div>
+      <br>
+      <button type="submit" class="btn btn-primary" style="width: 350px; margin-top: auto;margin-bottom: auto; border-radius:4px; padding:20px; text-transform: uppercase; letter-spacing: 1px; font-size:30" onClick="#">Subscribe now</button>
+  </div>
+</div>
+</section>
