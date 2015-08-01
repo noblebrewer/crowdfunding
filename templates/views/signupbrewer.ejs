@@ -16,11 +16,15 @@
       </div>
       <hr>
       <div class="body-copy">
-        <form id="signup-brewer-form" method="post">
+        <form id="signup-brewer-form"
+              enctype="multipart/form-data"
+              action="/signup-new-brewer"
+              method="post">
           <input type="text" name="firstname" value="First Name"></input>
           <input type="text" name="lastname" value="Last Name"></input>
           <input type="text" name="email" value="Email address"></input>
           <input type="file" name="photo" accept="image/*"></input>
+          <input type="submit"></input>
         </form>
       </div>
       <br>
