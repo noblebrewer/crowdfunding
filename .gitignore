@@ -1,0 +1,7 @@
+bin/
+
+# NPM dependencies
+node_modules/
+
+# Mac OS
+.DS_STORE
